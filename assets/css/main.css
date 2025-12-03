@@ -442,6 +442,7 @@ h6 {
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
     transition: 0.3s;
+    margin-right: 20px;
   }
 
   .mobile-nav-active .navmenu>ul {
@@ -1819,7 +1820,7 @@ section,
   display: grid;
   grid-template-rows: 0fr;
   transition: 0.3s ease-in-out;
-  visibility: hidden;
+  visibility: visible;
   opacity: 0;
 }
 
